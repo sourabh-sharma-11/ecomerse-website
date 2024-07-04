@@ -76,6 +76,9 @@ nav{
        text-align: center;
        transition: all 0.3s ease;
        z-index: 5;
+       background:rgba(255, 255, 255, 0.2);
+       box-sizing: -10px 0 10px rgba(0, 0, 0, 0.1);
+       backdrop-filter: blur(10px);
     }
     #click:checked ~ ul{
        left: 0%;
