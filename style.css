@@ -83,6 +83,9 @@ nav{
     #click:checked ~ ul{
        right: 0%;
     }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
     nav ul li{
        margin: 40px 0;
     }
