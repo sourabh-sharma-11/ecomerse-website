@@ -11,3 +11,10 @@ function login(){
     LoginForm.style.transform = "translateX(300px)";
     Indiactor.style.transform = "translateX(0px)";
 }
+startSlideShow();
+       window.addEventListener('scroll', function(){
+         let navbar = document.getElementById('menu-bar');
+        if(window.pageYOffset >= 80){
+            navbar.classList.add('sticky');
+        }
+       })
